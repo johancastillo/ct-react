@@ -1,54 +1,46 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import './App.css';
 
+// Imports
 import Navegation from './components/Navegation';
+import ProductCard from './components/product-card/ProductCard';
 
-import {todos} from './datos.json';
+// Data
+import {products} from './data.json';
 
 class App extends Component {
   constructor(){
     super();
     this.state = {
-      todos,
-      ntasks: todos.length
+      products,
+      nproducts: products.length
     }
   }
 
   render(){
-    const todos = this.state.todos.map((todo, i) => {
+    const data = this.state.products.map((product, i) => {
       return (
-        <div className="col-md-4">
-          <div className="card mt-4">
-          <div className="card-header">
-            <h3> {todo.title} </h3>
-
-            <span className="badge badge-pill badge-danger ml-2">
-              {todo.priority}
-            </span>
-          </div>
-
-          <div className="card-body">
-            <p>{todo.description}</p>
-            <p>
-              <mark>{todo.responsible}</mark>
-            </p>
-          </div>
-        </div>
+        <div className="col-6">
+              <ProductCard  
+                title={product.name}
+                stars={product.stars}
+              />
         </div>
       )
     })
 
     return (
-      <div>
-        <Navegation ntasks={this.state.ntasks} />
+      <Fragment>
+        <Navegation nproducts={this.state.nproducts} />
 
-        <div className="container">
-          <div className="row mt-4">
-          {todos}
+        <div className="container-fluid">
+          <div className="row">
+            {data}
           </div>
         </div>
+        
 
-      </div>
+      </Fragment>
     );
   }
 }

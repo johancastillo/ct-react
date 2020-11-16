@@ -1,0 +1,21 @@
+{
+    "products": [
+        {
+            "name": "Ron de culebra",
+            "stars": 1.5,
+            "image": ""
+        },
+        {
+            "name": "Cocacola",
+            "stars": 2
+        },
+        {
+            "name": "Nutella",
+            "stars": 5
+        },
+        {
+            "name": "Nutella",
+            "stars": 4.5
+        }
+    ]
+}
