@@ -4,6 +4,7 @@ import './App.css';
 // Imports
 import Navegation from './components/Navegation';
 import ProductCard from './components/product-card/ProductCard';
+import FormNodemailer from './components/form-nodemailer/FormNodemailer';
 
 // Data
 import {products} from './data.json';
@@ -39,6 +40,7 @@ class App extends Component {
             {data}
           </div>
         </div>
+
         
 
       </Fragment>

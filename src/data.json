@@ -1,9 +1,9 @@
 {
     "products": [
         {
-            "name": "Ron de culebra",
+            "name": "Lo que sea",
             "stars": 1.5,
-            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+            "image": "http://compralotodo.herokuapp.com/img/licores/8.webp"
         },
         {
             "name": "Cocacola",
@@ -13,11 +13,26 @@
         {
             "name": "Nutella",
             "stars": 5,
-            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+            "image": "http://compralotodo.herokuapp.com/img/licores/1.webp"
         },
         {
             "name": "Nutella",
             "stars": 4.5,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+        },
+        {
+            "name": "Ron de culebra",
+            "stars": 1.5,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+        },
+        {
+            "name": "Ron de culebra",
+            "stars": 1.5,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+        },
+        {
+            "name": "Ron de culebra",
+            "stars": 1.5,
             "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
         }
     ]
