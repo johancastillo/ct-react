@@ -24,6 +24,7 @@ class App extends Component {
               <ProductCard  
                 title={product.name}
                 stars={product.stars}
+                image={product.image}
               />
         </div>
       )

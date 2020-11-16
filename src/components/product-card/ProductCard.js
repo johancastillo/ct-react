@@ -88,7 +88,7 @@ class ProductCard extends Component{
             <div className="card mb-4">
 
                   <div className="color-gris">  
-                    <img src={product} className="card-img-top p-2" alt="..." />
+                    <img src={this.props.image} className="card-img-top p-2" alt="..." />
                   </div>
 
                     <div className="card-body">

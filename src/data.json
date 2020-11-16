@@ -3,19 +3,22 @@
         {
             "name": "Ron de culebra",
             "stars": 1.5,
-            "image": ""
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
         },
         {
             "name": "Cocacola",
-            "stars": 2
+            "stars": 2,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
         },
         {
             "name": "Nutella",
-            "stars": 5
+            "stars": 5,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
         },
         {
             "name": "Nutella",
-            "stars": 4.5
+            "stars": 4.5,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
         }
     ]
 }
