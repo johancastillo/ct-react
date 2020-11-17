@@ -5,8 +5,7 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 
 // Imports
@@ -45,7 +44,7 @@ class App extends Component {
 
           {/** Dinamic Content **/}
           <Switch>
-            <Route path="/servicios">
+            <Route path="/products">
               <div className="container-fluid">
                 <div className="row">
                   {data}
@@ -53,8 +52,12 @@ class App extends Component {
               </div>
             </Route>
 
-            <Route path="/servicios">
-              <h1>Esta es la página de Servicios</h1>
+            <Route path="/services">
+              Esta es la página de Servicios
+            </Route>
+
+            <Route path="/" exact>
+              Esta es la página de Inicio
             </Route>
           </Switch>
 
