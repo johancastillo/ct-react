@@ -2,7 +2,7 @@ import React, {Component, Fragment} from 'react';
 import './App.css';
 
 // Imports
-import Navegation from './components/Navegation';
+import Navegation from './components/navegation/Navegation';
 import ProductCard from './components/product-card/ProductCard';
 
 // Data

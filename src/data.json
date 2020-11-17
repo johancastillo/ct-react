@@ -29,6 +29,16 @@
             "name": "Nutella",
             "stars": 2.5,
             "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+        },
+        {
+            "name": "Nutella",
+            "stars": 2.5,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+        },
+        {
+            "name": "Nutella",
+            "stars": 2.5,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
         }
     ]
 }
