@@ -10,7 +10,6 @@
             "stars": 2.5,
             "image": "http://compralotodo.herokuapp.com/img/licores/1.webp"
         },
-        
         {
             "name": "Nutella",
             "stars": 2.5,
@@ -23,6 +22,11 @@
         },
         {
             "name": "Gordons Morada",
+            "stars": 3,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+        },
+        {
+            "name": "New Product",
             "stars": 3,
             "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
         }

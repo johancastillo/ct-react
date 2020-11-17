@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import './ProductCard.css';
 
-import product from './../../1.webp';
-
 
 class ProductCard extends Component{
 
