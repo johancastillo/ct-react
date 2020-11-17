@@ -5,3 +5,7 @@
 .color-gris {
     background: var(--color-fondo);
 }
+
+.card {
+    border: 2px solid #E6E6E6 !important;
+}

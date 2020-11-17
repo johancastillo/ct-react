@@ -4,7 +4,6 @@ import './App.css';
 // Imports
 import Navegation from './components/Navegation';
 import ProductCard from './components/product-card/ProductCard';
-import FormNodemailer from './components/form-nodemailer/FormNodemailer';
 
 // Data
 import {products} from './data.json';
@@ -21,7 +20,7 @@ class App extends Component {
   render(){
     const data = this.state.products.map((product, i) => {
       return (
-        <div className="col-6">
+        <div className="col-6 col-md-2">
               <ProductCard  
                 title={product.name}
                 stars={product.stars}
@@ -40,8 +39,6 @@ class App extends Component {
             {data}
           </div>
         </div>
-
-        
 
       </Fragment>
     );
