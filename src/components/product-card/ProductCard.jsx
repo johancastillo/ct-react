@@ -9,7 +9,7 @@ class ProductCard extends Component{
         let star;
 
         // Stars validation
-        if(this.props.stars == 1){
+        if(this.props.stars === 1){
           star = {
             one: "icon-star-full",
             two: "icon-star-empty",
@@ -17,7 +17,7 @@ class ProductCard extends Component{
             four: "icon-star-empty",
             five: "icon-star-empty"
           }
-        }else if(this.props.stars == 1.5){
+        }else if(this.props.stars === 1.5){
           star = {
             one: "icon-star-full",
             two: "icon-star-half",
@@ -25,7 +25,7 @@ class ProductCard extends Component{
             four: "icon-star-empty",
             five: "icon-star-empty"
           }
-        }else if(this.props.stars == 2){
+        }else if(this.props.stars === 2){
           star = {
             one: "icon-star-full",
             two: "icon-star-full",
@@ -33,7 +33,7 @@ class ProductCard extends Component{
             four: "icon-star-empty",
             five: "icon-star-empty"
           }
-        }else if(this.props.stars == 2.5){
+        }else if(this.props.stars === 2.5){
           star = {
             one: "icon-star-full",
             two: "icon-star-full",
@@ -41,7 +41,7 @@ class ProductCard extends Component{
             four: "icon-star-empty",
             five: "icon-star-empty"
           }
-        }else if(this.props.stars == 3){
+        }else if(this.props.stars === 3){
           star = {
             one: "icon-star-full",
             two: "icon-star-full",
@@ -49,7 +49,7 @@ class ProductCard extends Component{
             four: "icon-star-empty",
             five: "icon-star-empty"
           }
-        }else if(this.props.stars == 3.5){
+        }else if(this.props.stars === 3.5){
           star = {
             one: "icon-star-full",
             two: "icon-star-full",
@@ -57,7 +57,7 @@ class ProductCard extends Component{
             four: "icon-star-half",
             five: "icon-star-empty"
           }
-        }else if(this.props.stars == 4){
+        }else if(this.props.stars === 4){
           star = {
             one: "icon-star-full",
             two: "icon-star-full",
@@ -65,7 +65,7 @@ class ProductCard extends Component{
             four: "icon-star-full",
             five: "icon-star-empty"
           }
-        }else if(this.props.stars == 4.5){
+        }else if(this.props.stars === 4.5){
           star = {
             one: "icon-star-full",
             two: "icon-star-full",
@@ -73,7 +73,7 @@ class ProductCard extends Component{
             four: "icon-star-full",
             five: "icon-star-half"
           }
-        }else if(this.props.stars == 5){
+        }else if(this.props.stars === 5){
           star = {
             one: "icon-star-full",
             two: "icon-star-full",
@@ -83,6 +83,7 @@ class ProductCard extends Component{
           }
         }
 
+        // Return View
         return(
             <div className="card mb-4">
 
@@ -97,7 +98,6 @@ class ProductCard extends Component{
                         </span>
 
                         {/** Stars **/}
-
                         <div className="star-color">
                           <span className={star.one}></span>
                           <span className={star.two}></span>

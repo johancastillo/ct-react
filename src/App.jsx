@@ -37,6 +37,8 @@ class App extends Component {
       )
     })
 
+
+    // Return View
     return (
       <Router>
         <Fragment>
