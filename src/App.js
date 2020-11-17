@@ -53,11 +53,15 @@ class App extends Component {
             </Route>
 
             <Route path="/services">
-              Esta es la página de Servicios
+              <h1 className="text-center">
+                Esta es la página de Servicios
+              </h1>
             </Route>
 
             <Route path="/" exact>
-              Esta es la página de Inicio
+              <h1 className="text-center">
+                Esta es la página de Inicio
+              </h1>
             </Route>
           </Switch>
 

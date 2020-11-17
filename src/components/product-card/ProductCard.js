@@ -7,9 +7,10 @@ import product from './../../1.webp';
 class ProductCard extends Component{
 
     render(){
-        // Stars validation
+        // variable for the stars
         let star;
 
+        // Stars validation
         if(this.props.stars == 1){
           star = {
             one: "icon-star-full",
