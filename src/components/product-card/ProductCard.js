@@ -93,9 +93,9 @@ class ProductCard extends Component{
 
                     <div className="card-body">
 
-                        <p className="card-text name-product">
+                        <span className="card-text name-product">
                           {this.props.title}
-                        </p>
+                        </span>
 
                         {/** Stars **/}
 
