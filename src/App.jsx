@@ -8,9 +8,10 @@ import {
   Route
 } from 'react-router-dom';
 
-// Imports
+// Imports Components
 import Navegation from './components/navegation/Navegation';
 import ProductCard from './components/product-card/ProductCard';
+import Slider from './components/slider/Slider';
 
 // Data
 import {products} from './data.json';
@@ -47,6 +48,7 @@ class App extends Component {
           {/** Dinamic Content **/}
           <Switch>
             <Route path="/products">
+              <Slider />
               <div className="container-fluid">
                 <div className="row">
                   {data}

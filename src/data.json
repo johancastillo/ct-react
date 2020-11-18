@@ -29,6 +29,21 @@
             "name": "New Product",
             "stars": 3,
             "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+        },
+        {
+            "name": "New Product",
+            "stars": 3,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+        },
+        {
+            "name": "New Product",
+            "stars": 3,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+        },
+        {
+            "name": "New Product",
+            "stars": 3,
+            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
         }
     ]
 }
