@@ -55,7 +55,7 @@ class App extends Component {
 
           {/** Dinamic Content **/}
           <Switch>
-            <Route path="/products">
+            <Route path="/" exact>
               <Slider device={this.state.device} />
 
               <div className="container-fluid">
@@ -67,13 +67,13 @@ class App extends Component {
 
             <Route path="/services">
               <h1 className="text-center">
-                Esta es la página de Servicios
+                Esta es la página de Services
               </h1>
             </Route>
 
-            <Route path="/" exact>
+            <Route path="/products" exact>
               <h1 className="text-center">
-                Esta es la página de Inicio
+                Esta es la página de Products
               </h1>
             </Route>
           </Switch>
