@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 
 // Images
-import image1 from './1.jpg';
-import image2 from './2.jpg';
-import image3 from './3.png';
+import image1 from './mobile/1.jpg';
+import image2 from './mobile/2.jpg';
+
 
 
 class Slider extends Component{
@@ -25,7 +25,7 @@ class Slider extends Component{
                     </div>
 
                     <div class="carousel-item">
-                    <img src={image3} class="d-block w-100" alt="..." />
+                    <img src={image1} class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

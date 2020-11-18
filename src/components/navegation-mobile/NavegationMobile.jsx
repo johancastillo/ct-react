@@ -2,22 +2,24 @@ import React, {Component} from 'react';
 import Logo from './logo.svg';
 
 // Styles CSS
-import './NavegationDesktop.css';
+import './NavegationMobile.css';
 
 //React Router DOM
 import {Link} from 'react-router-dom';
 
 
-class NavegationDesktop extends Component{
+class NavegationMobile extends Component{
     render(){
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
                 <div>
-                    <button style={{fontSize: '18px'}} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <Link to="/" className="navbar-brand" href="#">
-                        <img src={Logo} width="198" height="100" alt="" loading="lazy" />
+                        <span className="icon-menu" style={{
+                            color: '#212529',
+                            fontSize: '22px'
+                        }}></span>
+                    
+                    <Link to="/" className="navbar-brand ml-2" href="#">
+                        <img src={Logo} width="198" height="100" alt="logo" loading="lazy" />
                     </Link>
                 </div>
 
@@ -46,12 +48,12 @@ class NavegationDesktop extends Component{
                 </div>
 
                 <div>
-                    <span className="icon-user" style={{fontSize: '24px'}}></span>
-                    <span className="icon-ct-cart ml-2" style={{fontSize: '24px'}}></span>
+                    <span className="icon-user" style={{fontSize: '32px'}}></span>
+                    <span className="icon-ct-cart ml-2" style={{fontSize: '32px'}}></span>
                 </div>
             </nav>
         )
     }
 }
 
-export default NavegationDesktop;
+export default NavegationMobile;

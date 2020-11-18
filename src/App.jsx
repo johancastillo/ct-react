@@ -10,17 +10,25 @@ import {
 
 // Imports Components
 import NavegationDesktop from './components/navegation-desktop/NavegationDesktop';
+import NavegationMobile from './components/navegation-mobile/NavegationMobile';
+
 import ProductCard from './components/product-card/ProductCard';
 import Slider from './components/slider/Slider';
 
 // Data
 import {products} from './data.json';
 
+// Device detecting
+const deviceDetecting = () => {
+  let screen = screen.width;
+}
+
 class App extends Component {
   constructor(){
     super();
     this.state = {
-      products
+      products,
+      device: "mobile"
     }
   }
 
@@ -43,12 +51,13 @@ class App extends Component {
     return (
       <Router>
         <Fragment>
-        <NavegationDesktop />
+        <NavegationMobile />
 
           {/** Dinamic Content **/}
           <Switch>
             <Route path="/products">
-              <Slider />
+              <Slider device={this.state.device} />
+
               <div className="container-fluid">
                 <div className="row">
                   {data}
