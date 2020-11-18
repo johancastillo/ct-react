@@ -6,44 +6,9 @@
             "image": "http://compralotodo.herokuapp.com/img/licores/8.webp"
         },
         {
-            "name": "Nutella",
-            "stars": 2.5,
-            "image": "http://compralotodo.herokuapp.com/img/licores/1.webp"
-        },
-        {
-            "name": "Nutella",
-            "stars": 2.5,
-            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
-        },
-        {
-            "name": "Nutella",
-            "stars": 2.5,
-            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
-        },
-        {
-            "name": "Gordons Morada",
-            "stars": 3,
-            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
-        },
-        {
-            "name": "New Product",
-            "stars": 3,
-            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
-        },
-        {
-            "name": "New Product",
-            "stars": 3,
-            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
-        },
-        {
-            "name": "New Product",
-            "stars": 3,
-            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
-        },
-        {
-            "name": "New Product",
-            "stars": 3,
-            "image": "http://compralotodo.herokuapp.com/img/licores/11.webp"
+            "name": "Lo que sea",
+            "stars": 1.5,
+            "image": "http://compralotodo.herokuapp.com/img/licores/8.webp"
         }
     ]
 }

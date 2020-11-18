@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 
 // Imports Components
-import Navegation from './components/navegation/Navegation';
+import NavegationDesktop from './components/navegation-desktop/NavegationDesktop';
 import ProductCard from './components/product-card/ProductCard';
 import Slider from './components/slider/Slider';
 
@@ -43,7 +43,7 @@ class App extends Component {
     return (
       <Router>
         <Fragment>
-        <Navegation />
+        <NavegationDesktop />
 
           {/** Dinamic Content **/}
           <Switch>
