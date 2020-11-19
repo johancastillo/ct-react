@@ -24,13 +24,20 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      device: 'desktop'
+      device: null
     }
   }
 
   componentDidMount(){
-    
-  }
+   let screenDetected = () => window.screen.width;
+   let resolution = screenDetected();
+   let device = resolution > 600 ? 'desktop' : 'mobile';
+      
+    this.setState({
+      device: device
+    });
+  
+   }
 
   render(){
     
