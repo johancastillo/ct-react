@@ -17,8 +17,11 @@ class NavegationMobile extends Component{
     }
 
     // Function for event click
-    handleClick(){
-        console.log("CLICK")
+    handleClick = () => {
+        this.setState({
+            number: this.state.number + 1
+        })
+        console.log(this.state.number)
     }
 
     render(){
