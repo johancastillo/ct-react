@@ -9,14 +9,27 @@ import {Link} from 'react-router-dom';
 
 
 class NavegationMobile extends Component{
+    constructor(){
+        super();
+        this.state = {
+            number: 5
+        }
+    }
+
+    // Function for event click
+    handleClick(){
+        console.log("CLICK")
+    }
+
     render(){
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
                 <div>
+                        {/** Menu */}
                         <span className="icon-menu" style={{
                             color: '#212529',
                             fontSize: '22px'
-                        }} onClick={()=> console.log("click in menu")}></span>
+                        }} onClick={this.handleClick}></span>
                     
                     <Link to="/" className="navbar-brand ml-2" href="#">
                         <img src={Logo} width="198" height="100" alt="logo" loading="lazy" />
