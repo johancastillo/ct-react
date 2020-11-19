@@ -15,6 +15,9 @@ import NavegationMobile from './components/navegation-mobile/NavegationMobile';
 import ProductCard from './components/product-card/ProductCard';
 import Slider from './components/slider/Slider';
 
+// import Pages
+import Home from './pages/Home';
+
 // Data
 import {products} from './data.json';
 
@@ -28,8 +31,12 @@ class App extends Component {
     super();
     this.state = {
       products,
-      device: "mobile"
+      device: "desktop"
     }
+  }
+
+  componentDidMount(){
+    
   }
 
   render(){

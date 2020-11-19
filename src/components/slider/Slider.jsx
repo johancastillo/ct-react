@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
 
-// Images
-import image1 from './mobile/1.jpg';
-import image2 from './mobile/2.jpg';
+// Images for Mibile
+import imageMobile1 from './mobile/1.jpg';
+import imageMobile2 from './mobile/2.jpg';
 
+// Images for Desktop
+import imageDesktop1 from './desktop/1.jpg';
+import imageDesktop2 from './desktop/2.jpg';
+import imageDesktop3 from './desktop/3.jpg';
 
 
 class Slider extends Component{
@@ -17,15 +21,15 @@ class Slider extends Component{
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src={image1} class="d-block w-100" alt="..." />
+                    <img src={this.props.device === "desktop" ? imageDesktop1 : imageMobile1} class="d-block w-100" alt="..." />
                     </div>
 
                     <div class="carousel-item">
-                    <img src={image2} class="d-block w-100" alt="..." />
+                    <img src={this.props.device === "desktop" ? imageDesktop2 : imageMobile2} class="d-block w-100" alt="..." />
                     </div>
 
                     <div class="carousel-item">
-                    <img src={image1} class="d-block w-100" alt="..." />
+                    <img src={this.props.device === "desktop" ? imageDesktop3 : imageMobile1} class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

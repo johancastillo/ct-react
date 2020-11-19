@@ -3,32 +3,47 @@
         {
             "name": "Lo que sea",
             "stars": 1.5,
-            "image": "http://compralotodo.herokuapp.com/img/licores/8.webp"
+            "image": "https://image-galery.herokuapp.com/static/media/1.691fd698.webp"
         },
         {
             "name": "Lo que sea",
             "stars": 1.5,
-            "image": "http://compralotodo.herokuapp.com/img/licores/8.webp"
+            "image": "https://image-galery.herokuapp.com/static/media/2.e07daa38.webp"
         },
         {
             "name": "Lo que sea",
             "stars": 1.5,
-            "image": "http://compralotodo.herokuapp.com/img/licores/8.webp"
+            "image": "https://image-galery.herokuapp.com/static/media/3.f7d33c03.webp"
         },
         {
             "name": "Lo que sea",
             "stars": 1.5,
-            "image": "http://compralotodo.herokuapp.com/img/licores/8.webp"
+            "image": "https://image-galery.herokuapp.com/static/media/4.9ca6c660.webp"
         },
         {
             "name": "Lo que sea",
             "stars": 1.5,
-            "image": "http://compralotodo.herokuapp.com/img/licores/8.webp"
+            "image": "https://image-galery.herokuapp.com/static/media/4.9ca6c660.webp"
         },
         {
             "name": "Lo que sea",
             "stars": 1.5,
-            "image": "http://compralotodo.herokuapp.com/img/licores/8.webp"
+            "image": "https://image-galery.herokuapp.com/static/media/4.9ca6c660.webp"
+        },
+        {
+            "name": "Lo que sea",
+            "stars": 1.5,
+            "image": "https://image-galery.herokuapp.com/static/media/2.e07daa38.webp"
+        },
+        {
+            "name": "Lo que sea",
+            "stars": 1.5,
+            "image": "https://image-galery.herokuapp.com/static/media/2.e07daa38.webp"
+        },
+        {
+            "name": "Lo que sea",
+            "stars": 1.5,
+            "image": "https://image-galery.herokuapp.com/static/media/2.e07daa38.webp"
         }
     ]
 }

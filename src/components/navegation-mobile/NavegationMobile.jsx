@@ -16,7 +16,7 @@ class NavegationMobile extends Component{
                         <span className="icon-menu" style={{
                             color: '#212529',
                             fontSize: '22px'
-                        }}></span>
+                        }} onClick={()=> console.log("click in menu")}></span>
                     
                     <Link to="/" className="navbar-brand ml-2" href="#">
                         <img src={Logo} width="198" height="100" alt="logo" loading="lazy" />
