@@ -18,20 +18,13 @@ import Slider from './components/slider/Slider';
 // import Pages
 import Home from './pages/Home';
 
-// Data
-import {products} from './data.json';
 
-// Device detecting
-const deviceDetecting = () => {
-  let screen = screen.width;
-}
 
 class App extends Component {
   constructor(){
     super();
     this.state = {
-      products,
-      device: "desktop"
+      device: 'desktop'
     }
   }
 
@@ -40,18 +33,7 @@ class App extends Component {
   }
 
   render(){
-    // Map for each of the products
-    const data = this.state.products.map((product, i) => {
-      return (
-        <div className="col-6 col-md-2">
-              <ProductCard  
-                title={product.name}
-                stars={product.stars}
-                image={product.image}
-              />
-        </div>
-      )
-    })
+    
 
 
     // Return View
@@ -63,13 +45,7 @@ class App extends Component {
           {/** Dinamic Content **/}
           <Switch>
             <Route path="/" exact>
-              <Slider device={this.state.device} />
-
-              <div className="container-fluid">
-                <div className="row">
-                  {data}
-                </div>
-              </div>
+              <Home device={this.state.device} />  
             </Route>
 
             <Route path="/services">
