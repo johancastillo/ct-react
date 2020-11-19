@@ -64,8 +64,8 @@ class NavegationMobile extends Component{
                 </div>
 
                 <div>
-                    <span className="icon-user" style={{fontSize: '32px'}}></span>
-                    <span className="icon-ct-cart ml-2" style={{fontSize: '32px'}}></span>
+                    <Link to="/mycount"><span className="icon icon-user" style={{fontSize: '32px'}}></span></Link>
+                    <Link to="/cart"><span className="icon icon-ct-cart ml-2" style={{fontSize: '32px'}}></span></Link>
                 </div>
             </nav>
         )

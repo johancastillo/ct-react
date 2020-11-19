@@ -4,3 +4,7 @@
   --color-terciario: #fff;
   --color-fondo: #F8F8F8;
 }
+
+*{
+  text-decoration: none !important;
+}

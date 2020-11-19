@@ -12,9 +12,6 @@ import {
 import NavegationDesktop from './components/navegation-desktop/NavegationDesktop';
 import NavegationMobile from './components/navegation-mobile/NavegationMobile';
 
-import ProductCard from './components/product-card/ProductCard';
-import Slider from './components/slider/Slider';
-
 // import Pages
 import Home from './pages/Home';
 
@@ -65,6 +62,18 @@ class App extends Component {
               <h1 className="text-center">
                 Esta es la página de Products
               </h1>
+            </Route>
+
+            <Route path="/product">
+              <h1 className="text-center">Single product</h1>
+            </Route>
+
+            <Route path="/mycount">
+              <h1 className="text-center">My Count</h1>
+            </Route>
+
+            <Route path="/cart">
+              <h1 className="text-center">Cart</h1>
             </Route>
           </Switch>
 

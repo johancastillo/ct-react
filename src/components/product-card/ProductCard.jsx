@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import './ProductCard.css';
 
 
@@ -85,6 +86,7 @@ class ProductCard extends Component{
 
         // Return View
         return(
+          <Link to="/product">
             <div className="card mb-4">
 
                   <div className="color-gris">  
@@ -110,6 +112,7 @@ class ProductCard extends Component{
 
                     </div>
                 </div>
+                </Link>
         )
     }
 }

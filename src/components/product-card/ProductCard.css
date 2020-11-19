@@ -8,4 +8,6 @@
 
 .card {
     border: 2px solid #E6E6E6 !important;
+    text-decoration: none !important;
+    color: #000;
 }
