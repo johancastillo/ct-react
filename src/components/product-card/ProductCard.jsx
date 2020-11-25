@@ -86,12 +86,14 @@ class ProductCard extends Component{
 
         // Return View
         return(
-          <Link to="/product">
+          
             <div className="card mb-4">
-
+                  
+                  <Link to="/product">
                   <div className="color-gris">  
                     <img src={this.props.image} className="card-img-top p-2" alt="..." />
                   </div>
+                  </Link>
 
                     <div className="card-body">
 
@@ -108,11 +110,19 @@ class ProductCard extends Component{
                           <span className={star.five}></span>
                         </div>
 
+                        <br/>
+
+                        <button type="button" class="btn btn-outline-success btn-block"
+                        style={{
+                          fontSize: "15px"
+                        }}>
+                          Añadir al carrito
+                        </button>
                         
 
                     </div>
                 </div>
-                </Link>
+                
         )
     }
 }

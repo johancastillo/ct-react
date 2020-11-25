@@ -47,6 +47,7 @@ class NavegationDesktop extends Component{
 
                 <div>
                     <span className="icon-user" style={{fontSize: '24px'}}></span>
+                    
                     <span className="icon-ct-cart ml-2" style={{fontSize: '24px'}}></span>
                 </div>
             </nav>

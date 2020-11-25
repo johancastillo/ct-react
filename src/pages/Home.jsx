@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import Slider from './../components/slider/Slider';
 import ProductCard from './../components/product-card/ProductCard';
 
@@ -18,7 +18,7 @@ class Home extends Component{
         // Map for each of the products
         const data = this.state.products.map((product, i) => {
             return (
-                <div className="col-6 col-md-2">
+                <div className="col-6 col-md-4 col-lg-3 col-xl-2">
                         <ProductCard  
                         title={product.name}
                         stars={product.stars}
@@ -29,7 +29,7 @@ class Home extends Component{
         });
 
         return(
-            <Fragment>
+            <div className="contenedor">
                 <Slider device={this.props.device} />
 
                 <div className="container-fluid">
@@ -38,7 +38,7 @@ class Home extends Component{
                     </div>
                 </div>
 
-            </Fragment>
+            </div>
         )
     }
 }

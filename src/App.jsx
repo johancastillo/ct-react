@@ -9,19 +9,18 @@ import {
 } from 'react-router-dom';
 
 // Imports Components
-import NavegationDesktop from './components/navegation-desktop/NavegationDesktop';
 import NavegationMobile from './components/navegation-mobile/NavegationMobile';
 
 // import Pages
 import Home from './pages/Home';
 
 
-
 class App extends Component {
   constructor(){
     super();
     this.state = {
-      device: null
+      device: null,
+      cart: []
     }
   }
 
