@@ -13,6 +13,7 @@ import NavegationMobile from './components/navegation-mobile/NavegationMobile';
 
 // import Pages
 import Home from './pages/Home';
+import Login from './pages/login/Login';
 
 
 class App extends Component {
@@ -74,6 +75,11 @@ class App extends Component {
             <Route path="/cart">
               <h1 className="text-center">Cart</h1>
             </Route>
+
+            <Route path="/login">
+              <Login />
+            </Route>
+
           </Switch>
 
       </Fragment>
