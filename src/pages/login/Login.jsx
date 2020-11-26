@@ -15,7 +15,7 @@ class Login extends Component{
 
                 <Link to="/">
                     <div className="row justify-content-center">
-                        <img src={Logo} alt="logo" className="img-responsive"
+                        <img src={Logo} alt="logo"
                         style={{
                             width: "55%",
                             marginTop: "64px",

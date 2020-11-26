@@ -24,3 +24,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.title{
+  color: var(--color-primario);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+}

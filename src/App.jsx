@@ -14,6 +14,7 @@ import NavegationMobile from './components/navegation-mobile/NavegationMobile';
 // import Pages
 import Home from './pages/Home';
 import Login from './pages/login/Login';
+import Register from './pages/register/Register';
 
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
   }
 
   componentDidMount(){
+    // Detected screen of the user
    let screenDetected = () => window.screen.width;
    let resolution = screenDetected();
    let device = resolution > 600 ? 'desktop' : 'mobile';
@@ -78,6 +80,10 @@ class App extends Component {
 
             <Route path="/login">
               <Login />
+            </Route>
+
+            <Route path="/register">
+              <Register />
             </Route>
 
           </Switch>
