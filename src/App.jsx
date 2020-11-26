@@ -44,7 +44,7 @@ class App extends Component {
     return (
       <Router>
         <Fragment>
-        <NavegationMobile />
+        <NavegationMobile visible="false" />
 
           {/** Dinamic Content **/}
           <Switch>

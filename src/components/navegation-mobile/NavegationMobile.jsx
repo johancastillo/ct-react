@@ -9,13 +9,6 @@ import {Link} from 'react-router-dom';
 
 
 class NavegationMobile extends Component{
-    constructor(){
-        super();
-        this.state = {
-            number: 5,
-            search: false
-        }
-    }
 
     // Function for event click
     handleClick = () => {
@@ -32,9 +25,7 @@ class NavegationMobile extends Component{
         console.log(this.state.number)
     }
 
-    styleNav = {
-        display: "flex"
-    } 
+    styleNav = this.props.visble == "true" ? {display: "flex"} : {display: "none"}
 
     styleSearch = {
         display: "none"

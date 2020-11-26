@@ -18,3 +18,9 @@
   background: var(--color-primario) !important;
   border-color: var(--color-primario) !important;
 }
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
