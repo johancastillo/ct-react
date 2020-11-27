@@ -11,14 +11,14 @@ class Login extends Component{
     render(){
         return (
             <div className="container">
-                <div className="row justify-content-center">
+                <div className="row justify-content-center abs-center">
 
                 <Link to="/">
                     <div className="row justify-content-center">
                         <img src={Logo} alt="logo"
                         style={{
                             width: "220px",
-                            marginTop: "50px",
+                            marginTop: "64px",
                             marginBottom: "24px"
                         }} 
                         />
@@ -31,7 +31,10 @@ class Login extends Component{
                             <span className="icon icon-user"></span>
                         </div>
                         <div className="col-10 pl-0">
-                            <input type="email" class="form-control" id="inputPassword" />
+                            <input type="email" class="form-control" 
+                            style={{
+                                textAlign: "center"
+                            }} />
                         </div>                        
                     </div>
 
@@ -40,12 +43,14 @@ class Login extends Component{
                             <span className="icon icon-padlock"></span>
                         </div>
                         <div className="col-10 pl-0">
-                            <input type="email" class="form-control" id="inputPassword" />
+                            <input type="password" class="form-control" style={{
+                                textAlign: "center"
+                            }} />
                         </div>                        
                     </div>
                     
                     <Link to="/reset">
-                        <p className="text-right my-3"
+                        <p className="text-right my-5"
                         style={{
                             color: "#000"
                         }}>

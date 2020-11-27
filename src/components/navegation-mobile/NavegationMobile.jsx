@@ -25,7 +25,7 @@ class NavegationMobile extends Component{
         console.log(this.state.number)
     }
 
-    styleNav = this.props.visble == "true" ? {display: "flex"} : {display: "none"}
+    styleNav = this.props.visble === "true" ? {display: "flex"} : {display: "none"}
 
     styleSearch = {
         display: "none"

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?q4o8md');
-  src:  url('fonts/icomoon.eot?q4o8md#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?q4o8md') format('truetype'),
-    url('fonts/icomoon.woff?q4o8md') format('woff'),
-    url('fonts/icomoon.svg?q4o8md#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?naj11n');
+  src:  url('fonts/icomoon.eot?naj11n#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?naj11n') format('truetype'),
+    url('fonts/icomoon.woff?naj11n') format('woff'),
+    url('fonts/icomoon.svg?naj11n#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,51 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-padlock:before {
+  content: "\e918";
+}
+.icon-exit:before {
+  content: "\e900";
+}
+.icon-eye:before {
+  content: "\e902";
+}
+.icon-home:before {
+  content: "\e903";
+}
+.icon-tag:before {
+  content: "\e905";
+}
+.icon-x:before {
+  content: "\e90d";
+}
+.icon-trash:before {
+  content: "\e90f";
+}
+.icon-help-circle:before {
+  content: "\e910";
+}
+.icon-gift:before {
+  content: "\e911";
+}
+.icon-gift-solid:before {
+  content: "\e912";
+}
+.icon-shopping-bag:before {
+  content: "\e913";
+}
+.icon-calendar-check:before {
+  content: "\e914";
+}
+.icon-bx-dollar:before {
+  content: "\e915";
+}
+.icon-line-chart-down:before {
+  content: "\e916";
+}
+.icon-phone:before {
+  content: "\e917";
+}
 .icon-facebook:before {
   content: "\e90b";
 }
@@ -40,35 +85,17 @@
 .icon-chevron-left:before {
   content: "\e908";
 }
-.icon-home:before {
-  content: "\e900";
-}
-.icon-pencil:before {
-  content: "\e905";
-}
 .icon-images:before {
   content: "\e90e";
 }
 .icon-bullhorn:before {
   content: "\e91a";
 }
-.icon-price-tags:before {
-  content: "\e936";
-}
-.icon-cart:before {
-  content: "\e93a";
-}
 .icon-coin-dollar:before {
   content: "\e93b";
 }
 .icon-credit-card:before {
   content: "\e93f";
-}
-.icon-phone:before {
-  content: "\e942";
-}
-.icon-envelop:before {
-  content: "\e945";
 }
 .icon-location:before {
   content: "\e947";
@@ -93,10 +120,4 @@
 }
 .icon-user:before {
   content: "\e901";
-}
-.icon-padlock:before {
-  content: "\e902";
-}
-.icon-exit:before {
-  content: "\e903";
 }
