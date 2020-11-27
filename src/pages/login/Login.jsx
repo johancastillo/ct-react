@@ -17,7 +17,7 @@ class Login extends Component{
                     <div className="row justify-content-center">
                         <img src={Logo} alt="logo"
                         style={{
-                            width: "55%",
+                            width: "220px",
                             marginTop: "50px",
                             marginBottom: "24px"
                         }} 
