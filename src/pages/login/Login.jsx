@@ -18,28 +18,28 @@ class Login extends Component{
                         <img src={Logo} alt="logo"
                         style={{
                             width: "55%",
-                            marginTop: "64px",
+                            marginTop: "50px",
                             marginBottom: "24px"
                         }} 
                         />
                     </div>    
                 </Link>
 
-                <form className="mt-5">
+                <form className="mt-5 mb-5">
                     <div class="form-group row">
-                        <div className="col-2">
+                        <div className="col-2 pr-0">
                             <span className="icon icon-user"></span>
                         </div>
-                        <div className="col-10">
+                        <div className="col-10 pl-0">
                             <input type="email" class="form-control" id="inputPassword" />
                         </div>                        
                     </div>
 
                     <div class="form-group row">
-                        <div className="col-2">
+                        <div className="col-2 pr-0">
                             <span className="icon icon-padlock"></span>
                         </div>
-                        <div className="col-10">
+                        <div className="col-10 pl-0">
                             <input type="email" class="form-control" id="inputPassword" />
                         </div>                        
                     </div>
