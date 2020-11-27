@@ -31,3 +31,7 @@
   font-weight: bold;
   font-size: 22px;
 }
+
+.text-primary{
+  color: var(--color-primario) !important;
+}

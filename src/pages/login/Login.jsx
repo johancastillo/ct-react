@@ -28,24 +28,25 @@ class Login extends Component{
                 <form className="mt-5 mb-5">
                     <div class="form-group row">
                         <div className="col-2 pr-0">
-                            <span className="icon icon-user"></span>
-                        </div>
-                        <div className="col-10 pl-0">
-                            <input type="email" class="form-control" 
+                            <span className="icon icon-user"
                             style={{
                                 textAlign: "center"
-                            }} />
+                            }}></span>
+                        </div>
+                        <div className="col-10 pl-0">
+                            <input type="email" class="form-control" />
                         </div>                        
                     </div>
 
                     <div class="form-group row">
                         <div className="col-2 pr-0">
-                            <span className="icon icon-padlock"></span>
+                            <span className="icon icon-padlock"
+                            style={{
+                                textAlign: "center"
+                            }}></span>
                         </div>
                         <div className="col-10 pl-0">
-                            <input type="password" class="form-control" style={{
-                                textAlign: "center"
-                            }} />
+                            <input type="password" class="form-control" />
                         </div>                        
                     </div>
                     
@@ -69,7 +70,7 @@ class Login extends Component{
                         Iniciar sesión
                     </button>
 
-                    <p className="text-center my-4">
+                    <p className="text-center mb-4 mt-5">
                         O inicia sesión con:
                     </p>
 
@@ -95,6 +96,17 @@ class Login extends Component{
                             </div>
                         </div>
                     </div>
+
+                    <p className="text-uppercase text-center mt-5">
+                        ¿No tienes cuenta?
+                        <br/>
+                        <Link to="/register">
+                            <b className="text-primary">
+                                Regístrate
+                            </b>
+                        </Link>    
+                        </p>
+                    
                 </form>
 
                 
