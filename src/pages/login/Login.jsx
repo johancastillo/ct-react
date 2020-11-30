@@ -34,7 +34,8 @@ class Login extends Component{
                             }}></span>
                         </div>
                         <div className="col-10 pl-0">
-                            <input type="email" class="form-control" />
+                            <input type="email" class="form-control" 
+                            placeholder="Usuario o correo electrónico" />
                         </div>                        
                     </div>
 
@@ -46,12 +47,13 @@ class Login extends Component{
                             }}></span>
                         </div>
                         <div className="col-10 pl-0">
-                            <input type="password" class="form-control" />
+                            <input type="password" class="form-control" 
+                            placeholder="Contraseña" />
                         </div>                        
                     </div>
                     
                     <Link to="/reset">
-                        <p className="text-right my-5"
+                        <p className="text-right my-3"
                         style={{
                             color: "#000"
                         }}>
@@ -70,7 +72,7 @@ class Login extends Component{
                         Iniciar sesión
                     </button>
 
-                    <p className="text-center mb-4 mt-5">
+                    <p className="text-center mb-4 mt-4">
                         O inicia sesión con:
                     </p>
 

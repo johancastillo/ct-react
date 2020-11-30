@@ -13,12 +13,18 @@ class Register extends Component{
                 </div>
             </Link>
 
-            <div className="container">
-                <div className="row justify-content-center abs-center">
+            <div className="container-fluid">
+                <div className="row justify-content-center ">
 
-                
+                <h4 className="text-center text-uppercase text-primary mt-4">
+                    <strong>Crear cuenta</strong>
+                </h4>    
 
-                <form className="mt-5 mb-5">
+                <form className="mt-2 mb-5"
+                style={{
+                    width: "80%"
+                }}>
+
                     <div class="form-group row">
                         <div className="col-2 pr-0">
                             <span className="icon icon-user"
@@ -26,8 +32,10 @@ class Register extends Component{
                                 textAlign: "center"
                             }}></span>
                         </div>
+
                         <div className="col-10 pl-0">
-                            <input type="email" class="form-control" />
+                            <input type="email" class="form-control" 
+                            placeholder="Nombre y apellido" />
                         </div>                        
                     </div>
 
@@ -38,8 +46,52 @@ class Register extends Component{
                                 textAlign: "center"
                             }}></span>
                         </div>
+
                         <div className="col-10 pl-0">
-                            <input type="password" class="form-control" />
+                            <input type="password" class="form-control" 
+                            placeholder="Nombre de usuario" />
+                        </div>                        
+                    </div>
+
+                    <div class="form-group row">
+                        <div className="col-2 pr-0">
+                            <span className="icon icon-padlock"
+                            style={{
+                                textAlign: "center"
+                            }}></span>
+                        </div>
+
+                        <div className="col-10 pl-0">
+                            <input type="password" class="form-control" 
+                            placeholder="Correo electrónico" />
+                        </div>                        
+                    </div>
+
+                    <div class="form-group row">
+                        <div className="col-2 pr-0">
+                            <span className="icon icon-user"
+                            style={{
+                                textAlign: "center"
+                            }}></span>
+                        </div>
+
+                        <div className="col-10 pl-0">
+                            <input type="email" class="form-control" 
+                            placeholder="Nombre y apellido" />
+                        </div>                        
+                    </div>
+
+                    <div class="form-group row">
+                        <div className="col-2 pr-0">
+                            <span className="icon icon-user"
+                            style={{
+                                textAlign: "center"
+                            }}></span>
+                        </div>
+
+                        <div className="col-10 pl-0">
+                            <input type="email" class="form-control" 
+                            placeholder="Nombre y apellido" />
                         </div>                        
                     </div>
                     
@@ -53,21 +105,10 @@ class Register extends Component{
                         fontWeight: "bold"
                     }}
                     >
-                        Crear cuenta
+                        Crear
                     </button>
 
 
-                    
-
-                    <p className="text-uppercase text-center mt-5">
-                        ¿No tienes cuenta?
-                        <br/>
-                        <Link to="/register">
-                            <b className="text-primary">
-                                Regístrate
-                            </b>
-                        </Link>    
-                        </p>
                     
                 </form>      
                 </div>
