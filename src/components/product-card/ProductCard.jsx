@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import './ProductCard.css';
+import './ProductCard.scss';
 
 
 class ProductCard extends Component{

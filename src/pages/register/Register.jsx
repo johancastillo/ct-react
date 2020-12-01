@@ -95,6 +95,16 @@ class Register extends Component{
                         </div>                        
                     </div>
                     
+
+                    <div class="form-group form-check mt-5">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                        <label class="form-check-label" for="exampleCheck1">
+                            He leido y acepto los 
+                            <Link to="terminos-y-condiciones">
+                                Terminos y Condiciones.
+                            </Link>
+                        </label>
+                    </div>
                     
 
                     <button type="button" 

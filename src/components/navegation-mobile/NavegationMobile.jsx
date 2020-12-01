@@ -2,7 +2,7 @@ import React, {Component, Fragment} from 'react';
 import Logo from './logo.svg';
 
 // Styles CSS
-import './NavegationMobile.css';
+import './NavegationMobile.scss';
 
 //React Router DOM
 import {Link} from 'react-router-dom';
