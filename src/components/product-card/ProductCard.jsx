@@ -87,7 +87,7 @@ class ProductCard extends Component{
         // Return View
         return(
           
-            <div className="card mb-4">
+            <div className="card">
                   
                   <Link to="/product">
                   <div className="color-gris">  

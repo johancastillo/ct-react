@@ -72,42 +72,44 @@ class Login extends Component{
                         Iniciar sesión
                     </button>
 
-                    <p className="text-center mb-4 mt-4">
-                        O inicia sesión con:
-                    </p>
-
-                    <div className="mt-4">
-                        <div className="row">
-                            <div className="col-6">
-                                <button type="button" class="btn btn-block btn-google abs-center">
-                                    <span className="icon-google" style={{
-                                        fontSize: "25px"
-                                    }}></span>
-
-                                    <span>Google</span>
-                                </button>
-                            </div>
-                            <div className="col-6">
-                                <button type="button" class="btn btn-block btn-facebook abs-center">
-                                    <span className="icon-facebook" style={{
-                                        fontSize: "25px"
-                                    }}></span>
-
-                                    <span>Facebook</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <p className="text-uppercase text-center mt-5">
+                    <p className="text-center my-4">
                         ¿No tienes cuenta?
                         <br/>
                         <Link to="/register">
-                            <b className="text-primary">
+                            <b className="text-primary text-uppercase">
                                 Regístrate
                             </b>
                         </Link>    
+                    </p>
+
+                    <div className="my-5 ">
+                        <p className="text-center mb-4">
+                            O inicia sesión con:
                         </p>
+
+                        <div className="mt-4">
+                            <div className="row">
+                                <div className="col-6">
+                                    <button type="button" class="btn btn-block btn-google abs-center">
+                                        <span className="icon-google" style={{
+                                            fontSize: "25px"
+                                        }}></span>
+
+                                        <span>Google</span>
+                                    </button>
+                                </div>
+                                <div className="col-6">
+                                    <button type="button" class="btn btn-block btn-facebook abs-center">
+                                        <span className="icon-facebook" style={{
+                                            fontSize: "25px"
+                                        }}></span>
+
+                                        <span>Facebook</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     
                 </form>
 

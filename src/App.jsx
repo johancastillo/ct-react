@@ -15,6 +15,7 @@ import NavegationMobile from './components/navegation-mobile/NavegationMobile';
 import Home from './pages/Home';
 import Login from './pages/login/Login';
 import Register from './pages/register/Register';
+import Search from './pages/search/Search';
 
 
 
@@ -85,6 +86,10 @@ class App extends Component {
 
             <Route path="/register">
               <Register />
+            </Route>
+
+            <Route path="/search">
+              <Search />
             </Route>
 
           </Switch>
