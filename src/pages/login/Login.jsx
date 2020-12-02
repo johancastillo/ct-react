@@ -52,7 +52,7 @@ class Login extends Component{
                         </div>                        
                     </div>
                     
-                    <Link to="/reset/password">
+                    <Link to="/reset-password">
                         <p className="text-right my-3"
                         style={{
                             color: "#000"

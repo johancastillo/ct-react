@@ -92,7 +92,7 @@ class App extends Component {
               <Search />
             </Route>
 
-            <Route path="/reset/password">
+            <Route path="/reset-password">
               <ResetPassword />
             </Route>
 

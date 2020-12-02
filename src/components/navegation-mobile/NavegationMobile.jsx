@@ -88,23 +88,23 @@ class NavegationMobile extends Component{
                 </div>    
             </nav>
 
-            <nav class="navbar shadow-nav navbar-light bg-light sticky-top"
+            <nav className="navbar shadow-nav navbar-light bg-light sticky-top"
             style={
                 this.styleSearch
             }
             >
-                <form class="form-inline">
-                    <span class="icon icon-chevron-left"
+                <form className="form-inline">
+                    <span className="icon icon-chevron-left"
                     onClick={() => alert("Back of search")}
                     style={{
                         marginRight: "20px"
                     }}></span>
 
-                    <input class="form-control mr-sm-2 search-input" 
+                    <input className="form-control mr-sm-2 search-input" 
                     type="search" placeholder="Search" 
                     aria-label="Search" />
 
-                    <button class="btn btn-outline-success my-2 my-sm-0 search-button" 
+                    <button className="btn btn-outline-success my-2 my-sm-0 search-button" 
                     type="submit">
                         <span className="icon-search"
                         style={{

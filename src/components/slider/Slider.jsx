@@ -13,32 +13,32 @@ import imageDesktop3 from './desktop/3.jpg';
 class Slider extends Component{
     render(){
         return(
-            <div id="carouselExampleIndicators" class="carousel slide mb-4" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <div id="carouselExampleIndicators" className="carousel slide mb-4" data-ride="carousel">
+                <ol className="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img src={this.props.device === "desktop" ? imageDesktop1 : imageMobile1} class="d-block w-100" alt="..." />
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                    <img src={this.props.device === "desktop" ? imageDesktop1 : imageMobile1} className="d-block w-100" alt="..." />
                     </div>
 
-                    <div class="carousel-item">
-                    <img src={this.props.device === "desktop" ? imageDesktop2 : imageMobile2} class="d-block w-100" alt="..." />
+                    <div className="carousel-item">
+                    <img src={this.props.device === "desktop" ? imageDesktop2 : imageMobile2} className="d-block w-100" alt="..." />
                     </div>
 
-                    <div class="carousel-item">
-                    <img src={this.props.device === "desktop" ? imageDesktop3 : imageMobile1} class="d-block w-100" alt="..." />
+                    <div className="carousel-item">
+                    <img src={this.props.device === "desktop" ? imageDesktop3 : imageMobile1} className="d-block w-100" alt="..." />
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="sr-only">Next</span>
                 </a>
             </div>
         )
