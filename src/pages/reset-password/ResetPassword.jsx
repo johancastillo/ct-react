@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 
+
+
 class ResetPassword extends Component{
     render(){
         return(
             <>
-            <Link to="/login">
+            <>
                 <div>
                     <span className="icon icon-chevron-left text-left"></span>
                     <span className="text-left">Regresar</span>
                 </div>
-            </Link>
+            </>
 
             <div className="container-fluid">
                 <div className="row justify-content-center ">
@@ -94,15 +96,6 @@ class ResetPassword extends Component{
                     </div>
                     
 
-                    <div class="form-group form-check mt-5">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                        <label class="form-check-label" for="exampleCheck1">
-                            He leido y acepto los 
-                            <Link to="terminos-y-condiciones">
-                                Terminos y Condiciones.
-                            </Link>
-                        </label>
-                    </div>
                     
 
                     <button type="button" 
@@ -125,3 +118,5 @@ class ResetPassword extends Component{
         )
     }
 }
+
+export default ResetPassword;

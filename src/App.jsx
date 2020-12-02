@@ -16,7 +16,7 @@ import Home from './pages/Home';
 import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 import Search from './pages/search/Search';
-
+import ResetPassword from './pages/reset-password/ResetPassword';
 
 
 class App extends Component {
@@ -80,11 +80,11 @@ class App extends Component {
               <h1 className="text-center">Cart</h1>
             </Route>
 
-            <Route path="/iniciar">
+            <Route path="/login">
               <Login />
             </Route>
 
-            <Route path="/registrar">
+            <Route path="/register">
               <Register />
             </Route>
 
@@ -92,8 +92,8 @@ class App extends Component {
               <Search />
             </Route>
 
-            <Route path="/recuperar-contrasena">
-              <Search />
+            <Route path="/reset/password">
+              <ResetPassword />
             </Route>
 
           </Switch>
