@@ -1,23 +1,35 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 
 class ResetPassword extends Component{
     render(){
         return(
             <>
-            <>
+            <Link to="/login">
                 <div>
                     <span className="icon icon-chevron-left text-left"></span>
                     <span className="text-left">Regresar</span>
                 </div>
-            </>
-
-            <div className="container-fluid">
-                <div className="row justify-content-center ">
+            </Link>
 
                 <h4 className="text-center mt-4">
-                    <span className="icon-padlock"></span>
+                    <span className="icon-padlock"
+                    style={{
+                        fontSize: "68px"
+                    }}></span>
+
+                    <p className="mt-2" 
+                    style={{
+                        fontSize: "20px"
+                    }}>
+                        Texto informativo
+                    </p>
                 </h4>    
+
+            <div className="container-fluid my-5">
+                <div className="row justify-content-center ">
+
 
                 <form className="mt-2 mb-5"
                 style={{
@@ -25,78 +37,13 @@ class ResetPassword extends Component{
                 }}>
 
                     <div className="form-group row">
-                        <div className="col-2 pr-0">
-                            <span className="icon icon-user"
-                            style={{
-                                textAlign: "center"
-                            }}></span>
-                        </div>
-
-                        <div className="col-10 pl-0">
+                        <div className="col-12">
                             <input type="email" className="form-control" 
-                            placeholder="Nombre y apellido" />
+                            placeholder="Correo eléctronico" />
                         </div>                        
                     </div>
-
-                    <div className="form-group row">
-                        <div className="col-2 pr-0">
-                            <span className="icon icon-padlock"
-                            style={{
-                                textAlign: "center"
-                            }}></span>
-                        </div>
-
-                        <div className="col-10 pl-0">
-                            <input type="password" className="form-control" 
-                            placeholder="Nombre de usuario" />
-                        </div>                        
-                    </div>
-
-                    <div className="form-group row">
-                        <div className="col-2 pr-0">
-                            <span className="icon icon-padlock"
-                            style={{
-                                textAlign: "center"
-                            }}></span>
-                        </div>
-
-                        <div className="col-10 pl-0">
-                            <input type="password" className="form-control" 
-                            placeholder="Correo electrónico" />
-                        </div>                        
-                    </div>
-
-                    <div className="form-group row">
-                        <div className="col-2 pr-0">
-                            <span className="icon icon-user"
-                            style={{
-                                textAlign: "center"
-                            }}></span>
-                        </div>
-
-                        <div className="col-10 pl-0">
-                            <input type="email" className="form-control" 
-                            placeholder="Nombre y apellido" />
-                        </div>                        
-                    </div>
-
-                    <div className="form-group row">
-                        <div className="col-2 pr-0">
-                            <span className="icon icon-user"
-                            style={{
-                                textAlign: "center"
-                            }}></span>
-                        </div>
-
-                        <div className="col-10 pl-0">
-                            <input type="email" className="form-control" 
-                            placeholder="Nombre y apellido" />
-                        </div>                        
-                    </div>
-                    
 
                     
-
                     <button type="button" 
                     className="btn btn-block btn-primary mt-4"
                     style={{
@@ -105,7 +52,7 @@ class ResetPassword extends Component{
                         fontWeight: "bold"
                     }}
                     >
-                        Crear
+                        Recuperar contraseña
                     </button>
 
 
