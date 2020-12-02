@@ -17,6 +17,8 @@ import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 import Search from './pages/search/Search';
 import ResetPassword from './pages/reset-password/ResetPassword';
+import Category from './pages/category/Category';
+import Subcategory from './pages/subcategory/Subcategory';
 
 
 class App extends Component {
@@ -94,6 +96,14 @@ class App extends Component {
 
             <Route path="/reset-password">
               <ResetPassword />
+            </Route>
+
+            <Route path="/categoria">
+              <Category />
+            </Route>
+
+            <Route path="/subcategoria">
+              <Subcategory />
             </Route>
 
           </Switch>

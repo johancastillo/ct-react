@@ -13,7 +13,7 @@ class ResetPassword extends Component{
                 </div>
             </Link>
 
-                <h4 className="text-center mt-4">
+                <h4 className="text-center mt-5">
                     <span className="icon-padlock"
                     style={{
                         fontSize: "68px"
