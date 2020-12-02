@@ -56,39 +56,43 @@ class App extends Component {
               <Home device={this.state.device} />  
             </Route>
 
-            <Route path="/services">
+            <Route path="/servicios">
               <h1 className="text-center">
                 Esta es la página de Services
               </h1>
             </Route>
 
-            <Route path="/products" exact>
+            <Route path="/productos" exact>
               <h1 className="text-center">
                 Esta es la página de Products
               </h1>
             </Route>
 
-            <Route path="/product">
+            <Route path="/producto">
               <h1 className="text-center">Single product</h1>
             </Route>
 
-            <Route path="/mycount">
+            <Route path="/mi-cuenta">
               <h1 className="text-center">My Count</h1>
             </Route>
 
-            <Route path="/cart">
+            <Route path="/carrito">
               <h1 className="text-center">Cart</h1>
             </Route>
 
-            <Route path="/login">
+            <Route path="/iniciar">
               <Login />
             </Route>
 
-            <Route path="/register">
+            <Route path="/registrar">
               <Register />
             </Route>
 
-            <Route path="/search">
+            <Route path="/busqueda">
+              <Search />
+            </Route>
+
+            <Route path="/recuperar-contrasena">
               <Search />
             </Route>
 

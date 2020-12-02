@@ -1,8 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-import {Link} from 'react-router-dom';
-
-class Register extends Component{
+class ResetPassword extends Component{
     render(){
         return(
             <>
@@ -127,5 +125,3 @@ class Register extends Component{
         )
     }
 }
-
-export default Register;
