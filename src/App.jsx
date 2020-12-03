@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import './App.scss';
 
 // React Router DOM
@@ -49,7 +49,7 @@ class App extends Component {
     // Return View
     return (
       <Router>
-        <Fragment>
+        <>
         <NavegationMobile visible="false" />
 
           {/** Dinamic Content **/}
@@ -108,7 +108,7 @@ class App extends Component {
 
           </Switch>
 
-      </Fragment>
+      </>
       </Router>
     );
   }
