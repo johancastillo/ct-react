@@ -1,10 +1,11 @@
 import React from 'react';
 
 import {Link} from 'react-router-dom';
+import Header from '../../components/header/Header';
 
 const Category = () => (
     <>
-        <h1>Category Page</h1>
+        <Header />
     </>
 )
 
