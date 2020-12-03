@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-class ResetPassword extends Component{
-    render(){
-        return(
+const ResetPassword = () => (
             <>
             <Link to="/login">
                 <div>
@@ -61,8 +59,6 @@ class ResetPassword extends Component{
                 </div>
             </div>
             </>
-        )
-    }
-}
+);
 
 export default ResetPassword;
