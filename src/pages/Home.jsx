@@ -8,7 +8,10 @@ import {products} from './../data.json';
 // Map for each of the products
 const data = products.map((product, i) => {
     return (
-        <div className="col-6 col-md-4 col-lg-3 col-xl-2">
+        <div className="col-6 col-md-4 col-lg-3 col-xl-2"
+        style={{
+            padding: "8px"
+        }}>
                 <ProductCard  
                 title={product.name}
                 stars={product.stars}
