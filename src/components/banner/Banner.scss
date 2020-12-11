@@ -1,0 +1,36 @@
+.banner{
+    background: linear-gradient(94.58deg, #FAA22D 18.09%, rgba(196, 196, 196, 0) 114.89%);
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    // Flexbox
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 254px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .box-content{
+        margin-left: 25px;
+    }
+
+    @media screen and (max-width: 900px){
+        .title{
+            font-size: 16px;
+        }
+
+        .subtitle{
+            font-size: 14px;
+        }
+
+        img{
+            width: 175px;
+        }
+    }
+}

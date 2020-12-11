@@ -1,13 +1,13 @@
-.star-color{
-    color: #FFBC00;
-}
+.card{
+    border: 2px solid #E6E6E6;
 
-.color-gris {
-    background: var(--color-fondo);
-}
-
-.card {
-    border: 2.9px solid #E6E6E6 !important;
-    text-decoration: none !important;
-    color: #000;
+    .img-container{
+        height: 218px;
+        background: #F8F8F8;
+    
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
 }

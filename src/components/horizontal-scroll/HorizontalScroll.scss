@@ -1,0 +1,24 @@
+#main {
+    overflow-x:scroll;
+    width:100%;
+
+    #horizontal-scroll {
+        display : inline-flex;
+        padding:1px;
+
+        .card{
+            margin: 0px 10px;
+            min-width:170px;
+            min-height:113px;
+            padding: 0px;
+
+            &:first-child{
+                margin-left: 0;
+            }
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}    

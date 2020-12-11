@@ -1,39 +1,18 @@
-@import "node_modules/bootstrap/scss/bootstrap";
-
-:root{
-  --color-primario: #faa32d;
-  --color-secundario: #5a595e;
-  --color-terciario: #fff;
-  --color-fondo: #F8F8F8;
+body{
+  margin-top: 0 !important;
 }
 
-*{
-  text-decoration: none !important;
+.margins-page{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-/* .contenedor{
-  margin-left: 50px;
-  margin-right: 50px;
-} */
-
-.btn-primary{
-  background: var(--color-primario) !important;
-  border-color: var(--color-primario) !important;
+// Display flex
+.flex{
+  display: flex !important;
 }
 
-.abs-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.title{
-  color: var(--color-primario);
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.text-primary{
-  color: var(--color-primario) !important;
+// Hidden
+.visually-hidden{
+  display: none !important;
 }
