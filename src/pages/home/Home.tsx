@@ -7,13 +7,13 @@ import Slider from '../../components/slider/Slider';
 const Home = () => (
     <>
         <Slider />
-        <div className="">
-            <div className="ed-grid m-grid-2">
+        <div className="margins-page">
+            <div className="ed-grid full m-grid-2">
                 <Banner />
                 <Banner />
             </div>
 
-            <div className="ed-grid">
+            <div className="ed-grid full">
                 <HorizontalScroll />
             </div>
         </div>
